@@ -1,0 +1,40 @@
+#include <stdio.h>
+int main()
+{
+    int i,j;
+    int hasil1[2][2];
+    int MatriksA[2][2],MatriksB[2][2];
+    printf ("MatriksA \n");
+    for (i=0;i<2;i++)
+    {
+        for (j=0;j<2;j++)
+        {
+            printf ("Element ke[%d][%d] = ",i,j);
+            scanf ("%d",&MatriksA[i][j]);
+        }
+    }
+    printf ("\nMatriksB\n");
+    for (i=0;i<2;i++)
+    {
+        for (j=0;j<2;j++)
+        {
+            printf ("Elemen ke[%d][%d] = ",i,j);
+            scanf ("%d",&MatriksB[i][j]);
+        }
+    }
+    printf("\nperkalian matriks\n");
+    for(i=0;i<2;i++)
+        {
+            for(j=0;j<2;j++)
+            {
+            hasil1[i][j]=(MatriksA[i][0]*MatriksB[0][j])+(MatriksA[i][1]*MatriksB[1][j]);
+            printf("%d \t ",hasil1[i][j]);
+            }
+        printf("\n");
+        }
+    return 0;
+}
+
+
+
+

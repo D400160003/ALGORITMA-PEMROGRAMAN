@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+{
+    int abs;
+    int uas;
+    printf ("\n masukkan nilai kehadiran : ");
+    scanf("%d",&abs);
+    printf ("\n masukkan nilai uas \t : ");
+    scanf("%d",&uas);
+    if (abs>70)
+    {
+        if (uas>50)
+        {
+            printf (" anda lulus \n ");
+        }
+        else
+        {
+        printf (" anda tidak lulus \n ");
+        }
+    }
+    else
+        {
+        printf (" anda tidak lulus \n ");
+        }
+    printf (" presentasi kehadiran : %d \n",abs);
+    printf (" nilai uas : %d \n",uas);
+    return 0;
+}

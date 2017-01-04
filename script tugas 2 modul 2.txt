@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main ()
+{
+    char (hasilujian);
+    printf ("\n masukkan nilai anda : ");
+    scanf("%c",&hasilujian);
+    switch (hasilujian)
+    {
+    case 'A':
+        printf (" sangat baik \n ");
+        break;
+    case 'B':
+        printf (" baik \n ");
+        break;
+    case 'C':
+        printf (" cukup \n ");
+        break;
+    case 'D':
+        printf (" buruk \n ");
+        break;
+    case 'E':
+        printf (" sebaiknya coba lagi \n ");
+        break;
+    default:
+        printf (" gagal \n ");
+    }
+    printf(" nilai anda adalah : %c \n",hasilujian);
+    return 0;
+}

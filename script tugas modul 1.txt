@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int L;
+    int l;
+    int p;
+    printf("menentukan luas persegi panjang \n\n");
+    printf("masukkan nilai p \n");
+    scanf("%d",&p);
+    printf("nilai p=%d \n\n",p);
+    printf("masukkan nilai l \n");
+    scanf("%d",&l);
+    L=p*l;
+    printf("hasil luas L=%d \n",L);
+    return(0);
+}
